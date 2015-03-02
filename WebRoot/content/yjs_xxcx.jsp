@@ -179,11 +179,11 @@
         //navButtons
         jQuery(grid_selector).jqGrid('navGrid',pager_selector,
                 { 	//navbar options
-                    edit: false,
+                    edit: true,
                     editicon : 'ace-icon fa fa-pencil blue',
-                    add: false,
+                    add: true,
                     addicon : 'ace-icon fa fa-plus-circle purple',
-                    del: false,
+                    del: true,
                     delicon : 'ace-icon fa fa-trash-o red',
                     search: true,
                     searchicon : 'ace-icon fa fa-search orange',
