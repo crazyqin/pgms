@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.multipart.maxSize" value="100000000" />
+	<package name="pgms" namespace="/" extends="struts-default">
+		<!-- 定义一个拦截器 -->
+		<interceptors>
+			<interceptor name="authority" class="com.pgms.interceptor.LoginInterceptor">
+			</interceptor>
+			<!-- 拦截器stack -->
+			<interceptor-stack name="pgmsdefault">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+				<interceptor-ref name="authority"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<!-- 全局result -->
+		<global-results>
+			<result name="login">/login.jsp</result>
+		</global-results>
+
+		<action name="login" class="com.pgms.action.AdminAction"
+			method="login">
+			<result name="success" type="redirect">/index.jsp</result>
+			<result name="input">/login.jsp</result>
+		</action>
+
+		<action name="logout" class="com.pgms.action.AdminAction"
+			method="logout">
+			<result name="success" type="redirect">/login.jsp</result>
+		</action>
+
+		<action name="download" class="com.pgms.action.FileDownloadAction">
+			<result type="stream">
+				<param name="contentType">application/vnd.ms-excel</param>
+				<param name="inputName">inputStream</param>
+				<param name="contentDisposition">attachment;filename="${fileDSTName}"</param>
+				<param name="bufferSize">10240</param>
+			</result>
+		</action>
+
+	</package>
+
+	<package name="pgms_json" namespace="/json" extends="json-default">
+		<action name="xls_upload" class="com.pgms.action.FileAction"
+			method="uploadExcel">
+			<result type="json">
+				<param name="root">uploadStatus</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
+
+		<action name="sheet_analysis" class="com.pgms.action.FileAction"
+			method="sheetsFromExcel">
+			<result type="json">
+				<param name="root">sheets</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
+
+
+		<action name="xlsImport" class="com.pgms.action.FileAction"
+			method="xlsImport">
+			<result type="json">
+				<param name="root">importStatus</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
+
+		<action name="xlsExport" class="com.pgms.action.FileAction"
+			method="xlsExport">
+			<result type="json">
+				<param name="root">exportStatus</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
+
+		<action name="stu_search" class="com.pgms.action.StuAction"
+			method="stu_search">
+			<result type="json">
+				<param name="root">allStu</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+
+		</action>
+
+	</package>
+
+</struts> 
