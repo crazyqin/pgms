@@ -29,7 +29,6 @@ public class FileDownloadAction {
 	}
 
 	public InputStream getInputStream() throws UnsupportedEncodingException{
-		fileName= new String(fileName.getBytes("iso-8859-1"), "UTF-8"); 
 		System.out.println(fileName);
 		fileDSTName=new Date().toString()+".xls";
 		return ServletActionContext.getServletContext().getResourceAsStream("/xls_tj/"+fileName);

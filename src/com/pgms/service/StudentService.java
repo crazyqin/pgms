@@ -77,10 +77,10 @@ public class StudentService {
 		try{
 			sd.delete(sd.findById(id));
 			m.put("status", 1);
-			m.put("msg", "É¾³ı³É¹¦");
+			m.put("msg", "åˆ é™¤æˆåŠŸ");
 		}catch(RuntimeException re){
 			m.put("status", 0);
-			m.put("msg", "É¾³ıÊ§°Ü");
+			m.put("msg", "åˆ é™¤å¤±è´¥");
 		}
 		return m;
 		

@@ -77,82 +77,82 @@ public class XLSUtil {
 			for (int j = 0; j < col_total; j++) {
 				if (st.getCell(j, 0).getContents().equals("yxsmc")
 						|| st.getCell(j, 0).getContents().equals("ssyxmc")
-						|| st.getCell(j, 0).getContents().equals("Ñ§Ôº")
-						|| st.getCell(j, 0).getContents().equals("Ñ§ÔºÃû³Æ")
+						|| st.getCell(j, 0).getContents().equals("å­¦é™¢")
+						|| st.getCell(j, 0).getContents().equals("å­¦é™¢åç§°")
 						|| st.getCell(j, 0).getContents().equals("lqyxsmc")) {
 					stu_college_col = j;
 				}
 				if (st.getCell(j, 0).getContents().equals("xh")
-						|| st.getCell(j, 0).getContents().equals("Ñ§ºÅ")) {
+						|| st.getCell(j, 0).getContents().equals("å­¦å·")) {
 					stu_no_col = j;
 				}
 				if (st.getCell(j, 0).getContents().equals("xm")
-						|| st.getCell(j, 0).getContents().equals("ÐÕÃû")) {
+						|| st.getCell(j, 0).getContents().equals("å§“å")) {
 					stu_name_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("ÐÔ±ð")
+				if (st.getCell(j, 0).getContents().equals("æ€§åˆ«")
 						|| st.getCell(j, 0).getContents().equals("sex")
 						|| st.getCell(j, 0).getContents().equals("xb")
 						|| st.getCell(j, 0).getContents().equals("xbmc")
 						|| st.getCell(j, 0).getContents().equals("xbm")) {
 					stu_sex_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("Ñ§ÖÆ")
-						|| st.getCell(j, 0).getContents().equals("Â¼È¡Ñ§ÖÆ")
-						|| st.getCell(j, 0).getContents().equals("Ñ§ÖÆ£¨Äê£©")) {
+				if (st.getCell(j, 0).getContents().equals("å­¦åˆ¶")
+						|| st.getCell(j, 0).getContents().equals("å½•å–å­¦åˆ¶")
+						|| st.getCell(j, 0).getContents().equals("å­¦åˆ¶ï¼ˆå¹´ï¼‰")) {
 					stu_xz_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("ÅàÑøÀà±ð")
+				if (st.getCell(j, 0).getContents().equals("åŸ¹å…»ç±»åˆ«")
 						|| st.getCell(j, 0).getContents().equals("lqlbm")) {
 					stu_pylb_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("Ãñ×å")
+				if (st.getCell(j, 0).getContents().equals("æ°‘æ—")
 						|| st.getCell(j, 0).getContents().equals("mzmc")) {
 					stu_mz_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("³öÉúÈÕÆÚ")
+				if (st.getCell(j, 0).getContents().equals("å‡ºç”Ÿæ—¥æœŸ")
 						|| st.getCell(j, 0).getContents().equals("csrq")) {
 					stu_birth_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("Ö¤¼þÀàÐÍ")
+				if (st.getCell(j, 0).getContents().equals("è¯ä»¶ç±»åž‹")
 						|| st.getCell(j, 0).getContents().equals("zjlx")) {
 					stu_zjlx_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("Ö¤¼þºÅÂë")
+				if (st.getCell(j, 0).getContents().equals("è¯ä»¶å·ç ")
 						|| st.getCell(j, 0).getContents().equals("zjhm")) {
 					stu_zjhm_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("ÕþÖÎÃæÃ²")
+				if (st.getCell(j, 0).getContents().equals("æ”¿æ²»é¢è²Œ")
 						|| st.getCell(j, 0).getContents().equals("zzmm")
 						|| st.getCell(j, 0).getContents().equals("zzmmmc")) {
 					stu_zzmm_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("ÁìÓò´úÂë")
+				if (st.getCell(j, 0).getContents().equals("é¢†åŸŸä»£ç ")
 						|| st.getCell(j, 0).getContents().equals("lyzydm")
 						|| st.getCell(j, 0).getContents().equals("lqlydm")
-						|| st.getCell(j, 0).getContents().equals("Â¼È¡×¨Òµ´úÂë")
+						|| st.getCell(j, 0).getContents().equals("å½•å–ä¸“ä¸šä»£ç ")
 						|| st.getCell(j, 0).getContents().equals("zylydm")
 						|| st.getCell(j, 0).getContents().equals("lqzydm")) {
 					stu_lydm_col = j;
 				}
 				if (st.getCell(j, 0).getContents().equals("lqlymc")
-						|| st.getCell(j, 0).getContents().equals("Â¼È¡×¨ÒµÃû³Æ")
+						|| st.getCell(j, 0).getContents().equals("å½•å–ä¸“ä¸šåç§°")
 						|| st.getCell(j, 0).getContents().equals("zylymc")
-						|| st.getCell(j, 0).getContents().equals("ÁìÓòÃû³Æ")
+						|| st.getCell(j, 0).getContents().equals("é¢†åŸŸåç§°")
 						|| st.getCell(j, 0).getContents().equals("lqzymc")) {
 					stu_lymc_col = j;
 				}
 
 				if (st.getCell(j, 0).getContents().equals("lqlbdm")
-						|| st.getCell(j, 0).getContents().equals("Àà±ð´úÂë")
+						|| st.getCell(j, 0).getContents().equals("ç±»åˆ«ä»£ç ")
 						|| st.getCell(j, 0).getContents().equals("ssxwlbdm")) {
 					stu_xwlbdm_col = j;
 				}
-				if (st.getCell(j, 0).getContents().equals("Àà±ðÃû³Æ")
+				if (st.getCell(j, 0).getContents().equals("ç±»åˆ«åç§°")
 						|| st.getCell(j, 0).getContents().equals("lqlbmc")
 						|| st.getCell(j, 0).getContents().equals("ssxwlbmc")
-						|| st.getCell(j, 0).getContents().equals("Ñ§Î»Àà±ð")
-						|| st.getCell(j, 0).getContents().equals("Ñ§¿ÆÃû³Æ")) {
+						|| st.getCell(j, 0).getContents().equals("å­¦ä½ç±»åˆ«")
+						|| st.getCell(j, 0).getContents().equals("å­¦ç§‘åç§°")) {
 					stu_xwlbmc_col = j;
 				}
 
@@ -195,13 +195,13 @@ public class XLSUtil {
 
 					if (stu_pylb_col != -1){
 						if (st.getCell(stu_pylb_col, k).getContents().equals("11")){
-							s_tmp.setStu_pylb("·Ç¶¨Ïò");
+							s_tmp.setStu_pylb("éžå®šå‘");
 						}else if(st.getCell(stu_pylb_col, k).getContents().equals("12")){
-							s_tmp.setStu_pylb("¶¨Ïò");
+							s_tmp.setStu_pylb("å®šå‘");
 						}else if(st.getCell(stu_pylb_col, k).getContents().equals("24")){
-							s_tmp.setStu_pylb("×Ô³ï");
+							s_tmp.setStu_pylb("è‡ªç­¹");
 						}else if (st.getCell(stu_pylb_col, k).getContents().equals("23")){
-							s_tmp.setStu_pylb("Î¯Åà");
+							s_tmp.setStu_pylb("å§”åŸ¹");
 						}else{
 							s_tmp.setStu_pylb(st.getCell(stu_pylb_col, k).getContents());
 						}
@@ -242,7 +242,7 @@ public class XLSUtil {
 							Field f_tmp = new Field();
 							FieldDao fd = new FieldDao();
 							f_tmp.setField_code("000000");
-							f_tmp.setField_name("ÎÞ×¨ÒµÁìÓò");
+							f_tmp.setField_name("æ— ä¸“ä¸šé¢†åŸŸ");
 							fd.addorupdate(f_tmp);
 							s_tmp.setField(f_tmp);
 						}
@@ -272,7 +272,7 @@ public class XLSUtil {
 
 					}
 
-					s_tmp.setStu_detail("Âèµ° Ì«·³ÁË ²»¸ÉÁË¡£");
+					s_tmp.setStu_detail("å¦ˆè›‹ å¤ªçƒ¦äº† ä¸å¹²äº†ã€‚");
 
 					// StudentDao sd = new StudentDao();
 					// sd.add(s_tmp);
@@ -297,7 +297,7 @@ public class XLSUtil {
 		if (year_num==1){
 			List<Map> final_data = new ArrayList();
 			for (int i = 0 ;i<sortby.length;i++){
-				if (sortby[i].equals("°´Ñ§Ôº")){
+				if (sortby[i].equals("æŒ‰å­¦é™¢")){
 					CollegeDao cd = new CollegeDao();
 					List<College> college_list = cd.viewAllCollege();
 					
@@ -320,29 +320,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -350,7 +350,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -376,22 +376,22 @@ public class XLSUtil {
 					}
 					
 					
-					//Ð´Èësheet °´Ñ§Ôº
+					//å†™å…¥sheet æŒ‰å­¦é™¢
 	
 			        DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´Ñ§Ôº");
+					WritableSheet ws = wwb.getSheet("æŒ‰å­¦é™¢");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(1,5,years[0]+"¼¶"));
-					ws.addCell(new Label(3,5,years[0]+"¼¶"));
-					ws.addCell(new Label(5,5,years[0]+"¼¶"));
-					ws.addCell(new Label(7,5,years[0]+"¼¶"));
-					ws.addCell(new Label(9,3,years[0]+"¼¶"));
-					ws.addCell(new Label(12,3,years[0]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(1,5,years[0]+"çº§"));
+					ws.addCell(new Label(3,5,years[0]+"çº§"));
+					ws.addCell(new Label(5,5,years[0]+"çº§"));
+					ws.addCell(new Label(7,5,years[0]+"çº§"));
+					ws.addCell(new Label(9,3,years[0]+"çº§"));
+					ws.addCell(new Label(12,3,years[0]+"çº§"));
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
 						ws.addCell(new Label(0,6+j, (String) data_m.get("collegeName"),wcf));
@@ -423,7 +423,7 @@ public class XLSUtil {
 					}
 				}
 				final_data.clear();
-				if (sortby[i].equals("°´Ñ§Î»Àà±ð")){
+				if (sortby[i].equals("æŒ‰å­¦ä½ç±»åˆ«")){
 					
 					DegreeDao dd = new DegreeDao();
 					List<String> degree_list = dd.viewAllUniqueDegree();
@@ -446,29 +446,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -476,7 +476,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -500,21 +500,21 @@ public class XLSUtil {
 						
 						final_data.add(m);
 					}
-					//Ð´Èësheet °´Ñ§Î»Àà±ð
+					//å†™å…¥sheet æŒ‰å­¦ä½ç±»åˆ«
 					DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´Ñ§Î»Àà±ð");
+					WritableSheet ws = wwb.getSheet("æŒ‰å­¦ä½ç±»åˆ«");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(1,5,years[0]+"¼¶"));
-					ws.addCell(new Label(3,5,years[0]+"¼¶"));
-					ws.addCell(new Label(5,5,years[0]+"¼¶"));
-					ws.addCell(new Label(7,5,years[0]+"¼¶"));
-					ws.addCell(new Label(9,3,years[0]+"¼¶"));
-					ws.addCell(new Label(12,3,years[0]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(1,5,years[0]+"çº§"));
+					ws.addCell(new Label(3,5,years[0]+"çº§"));
+					ws.addCell(new Label(5,5,years[0]+"çº§"));
+					ws.addCell(new Label(7,5,years[0]+"çº§"));
+					ws.addCell(new Label(9,3,years[0]+"çº§"));
+					ws.addCell(new Label(12,3,years[0]+"çº§"));
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
 						ws.addCell(new Label(0,6+j, (String) data_m.get("degreeType"),wcf));
@@ -546,7 +546,7 @@ public class XLSUtil {
 					}
 				}
 				final_data.clear();
-				if (sortby[i].equals("°´ÁìÓò")){
+				if (sortby[i].equals("æŒ‰é¢†åŸŸ")){
 					
 					FieldDao fd = new FieldDao();
 					List<Field> field_list = fd.viewAllField();
@@ -578,29 +578,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -608,7 +608,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -632,21 +632,21 @@ public class XLSUtil {
 						
 						final_data.add(m);
 					}
-					//Ð´Èësheet °´ÁìÓò
+					//å†™å…¥sheet æŒ‰é¢†åŸŸ
 					DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´ÁìÓò");
+					WritableSheet ws = wwb.getSheet("æŒ‰é¢†åŸŸ");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(5,5,years[0]+"¼¶"));
-					ws.addCell(new Label(7,5,years[0]+"¼¶"));
-					ws.addCell(new Label(9,5,years[0]+"¼¶"));
-					ws.addCell(new Label(11,5,years[0]+"¼¶"));
-					ws.addCell(new Label(13,3,years[0]+"¼¶"));
-					ws.addCell(new Label(16,3,years[0]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(5,5,years[0]+"çº§"));
+					ws.addCell(new Label(7,5,years[0]+"çº§"));
+					ws.addCell(new Label(9,5,years[0]+"çº§"));
+					ws.addCell(new Label(11,5,years[0]+"çº§"));
+					ws.addCell(new Label(13,3,years[0]+"çº§"));
+					ws.addCell(new Label(16,3,years[0]+"çº§"));
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
 						ws.addCell(new Label(0,6+j, (String) data_m.get("collegeName"),wcf));
@@ -688,7 +688,7 @@ public class XLSUtil {
 		if (year_num==2){
 			List<Map> final_data = new ArrayList();
 			for (int i = 0 ;i<sortby.length;i++){
-				if (sortby[i].equals("°´Ñ§Ôº")){
+				if (sortby[i].equals("æŒ‰å­¦é™¢")){
 					CollegeDao cd = new CollegeDao();
 					List<College> college_list = cd.viewAllCollege();
 					
@@ -723,29 +723,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -753,7 +753,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -779,29 +779,29 @@ public class XLSUtil {
 
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[1])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year1_m++;
 									}else{
 										sum_fdx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year1_m++;
 									}else{
 										sum_dx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year1_m++;
 									}else{
 										sum_wp_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year1_m++;
 									}else{
 										sum_zc_year1_f++;
@@ -809,7 +809,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[1])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year1_m++;
 								}else{
 									sum_Z_year1_f++;
@@ -839,29 +839,29 @@ public class XLSUtil {
 					}
 					
 					
-					//Ð´Èësheet °´Ñ§Ôº
+					//å†™å…¥sheet æŒ‰å­¦é™¢
 	
 			        DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´Ñ§Ôº");
+					WritableSheet ws = wwb.getSheet("æŒ‰å­¦é™¢");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(1,5,years[0]+"¼¶"));
-					ws.addCell(new Label(2,5,years[1]+"¼¶"));
-					ws.addCell(new Label(4,5,years[0]+"¼¶"));
-					ws.addCell(new Label(5,5,years[1]+"¼¶"));
-					ws.addCell(new Label(7,5,years[0]+"¼¶"));
-					ws.addCell(new Label(8,5,years[1]+"¼¶"));
-					ws.addCell(new Label(10,5,years[0]+"¼¶"));
-					ws.addCell(new Label(11,5,years[1]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(1,5,years[0]+"çº§"));
+					ws.addCell(new Label(2,5,years[1]+"çº§"));
+					ws.addCell(new Label(4,5,years[0]+"çº§"));
+					ws.addCell(new Label(5,5,years[1]+"çº§"));
+					ws.addCell(new Label(7,5,years[0]+"çº§"));
+					ws.addCell(new Label(8,5,years[1]+"çº§"));
+					ws.addCell(new Label(10,5,years[0]+"çº§"));
+					ws.addCell(new Label(11,5,years[1]+"çº§"));
 					
-					ws.addCell(new Label(13,3,years[0]+"¼¶"));
-					ws.addCell(new Label(14,3,years[1]+"¼¶"));
-					ws.addCell(new Label(17,3,years[0]+"¼¶"));
-					ws.addCell(new Label(18,3,years[1]+"¼¶"));
+					ws.addCell(new Label(13,3,years[0]+"çº§"));
+					ws.addCell(new Label(14,3,years[1]+"çº§"));
+					ws.addCell(new Label(17,3,years[0]+"çº§"));
+					ws.addCell(new Label(18,3,years[1]+"çº§"));
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
 						ws.addCell(new Label(0,6+j, (String) data_m.get("collegeName"),wcf));
@@ -897,7 +897,7 @@ public class XLSUtil {
 					}
 				}
 				final_data.clear();
-				if (sortby[i].equals("°´Ñ§Î»Àà±ð")){
+				if (sortby[i].equals("æŒ‰å­¦ä½ç±»åˆ«")){
 					
 					DegreeDao dd = new DegreeDao();
 					List<String> degree_list = dd.viewAllUniqueDegree();
@@ -932,29 +932,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -962,7 +962,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -986,29 +986,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[1])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year1_m++;
 									}else{
 										sum_fdx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year1_m++;
 									}else{
 										sum_dx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year1_m++;
 									}else{
 										sum_wp_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year1_m++;
 									}else{
 										sum_zc_year1_f++;
@@ -1016,7 +1016,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[1])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year1_m++;
 								}else{
 									sum_Z_year1_f++;
@@ -1040,28 +1040,28 @@ public class XLSUtil {
 						
 						final_data.add(m);
 					}
-					//Ð´Èësheet °´Ñ§Î»Àà±ð
+					//å†™å…¥sheet æŒ‰å­¦ä½ç±»åˆ«
 					DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´Ñ§Î»Àà±ð");
+					WritableSheet ws = wwb.getSheet("æŒ‰å­¦ä½ç±»åˆ«");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(1,5,years[0]+"¼¶"));
-					ws.addCell(new Label(2,5,years[1]+"¼¶"));
-					ws.addCell(new Label(4,5,years[0]+"¼¶"));
-					ws.addCell(new Label(5,5,years[1]+"¼¶"));
-					ws.addCell(new Label(7,5,years[0]+"¼¶"));
-					ws.addCell(new Label(8,5,years[1]+"¼¶"));
-					ws.addCell(new Label(10,5,years[0]+"¼¶"));
-					ws.addCell(new Label(11,5,years[1]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(1,5,years[0]+"çº§"));
+					ws.addCell(new Label(2,5,years[1]+"çº§"));
+					ws.addCell(new Label(4,5,years[0]+"çº§"));
+					ws.addCell(new Label(5,5,years[1]+"çº§"));
+					ws.addCell(new Label(7,5,years[0]+"çº§"));
+					ws.addCell(new Label(8,5,years[1]+"çº§"));
+					ws.addCell(new Label(10,5,years[0]+"çº§"));
+					ws.addCell(new Label(11,5,years[1]+"çº§"));
 					
-					ws.addCell(new Label(13,3,years[0]+"¼¶"));
-					ws.addCell(new Label(14,3,years[1]+"¼¶"));
-					ws.addCell(new Label(17,3,years[0]+"¼¶"));
-					ws.addCell(new Label(18,3,years[1]+"¼¶"));
+					ws.addCell(new Label(13,3,years[0]+"çº§"));
+					ws.addCell(new Label(14,3,years[1]+"çº§"));
+					ws.addCell(new Label(17,3,years[0]+"çº§"));
+					ws.addCell(new Label(18,3,years[1]+"çº§"));
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
 						ws.addCell(new Label(0,6+j, (String) data_m.get("degreeType"),wcf));
@@ -1097,7 +1097,7 @@ public class XLSUtil {
 					}
 				}
 				final_data.clear();
-				if (sortby[i].equals("°´ÁìÓò")){
+				if (sortby[i].equals("æŒ‰é¢†åŸŸ")){
 					
 					FieldDao fd = new FieldDao();
 					List<Field> field_list = fd.viewAllField();
@@ -1141,29 +1141,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -1171,7 +1171,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -1196,29 +1196,29 @@ public class XLSUtil {
 
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[1])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year1_m++;
 									}else{
 										sum_fdx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year1_m++;
 									}else{
 										sum_dx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year1_m++;
 									}else{
 										sum_wp_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year1_m++;
 									}else{
 										sum_zc_year1_f++;
@@ -1226,7 +1226,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[1])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year1_m++;
 								}else{
 									sum_Z_year1_f++;
@@ -1253,28 +1253,28 @@ public class XLSUtil {
 
 						final_data.add(m);
 					}
-					//Ð´Èësheet °´ÁìÓò
+					//å†™å…¥sheet æŒ‰é¢†åŸŸ
 					DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´ÁìÓò");
+					WritableSheet ws = wwb.getSheet("æŒ‰é¢†åŸŸ");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(5,5,years[0]+"¼¶"));
-					ws.addCell(new Label(5,5,years[1]+"¼¶"));
-					ws.addCell(new Label(8,5,years[0]+"¼¶"));
-					ws.addCell(new Label(9,5,years[1]+"¼¶"));
-					ws.addCell(new Label(11,5,years[0]+"¼¶"));
-					ws.addCell(new Label(12,5,years[1]+"¼¶"));
-					ws.addCell(new Label(14,5,years[0]+"¼¶"));
-					ws.addCell(new Label(15,5,years[1]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(5,5,years[0]+"çº§"));
+					ws.addCell(new Label(5,5,years[1]+"çº§"));
+					ws.addCell(new Label(8,5,years[0]+"çº§"));
+					ws.addCell(new Label(9,5,years[1]+"çº§"));
+					ws.addCell(new Label(11,5,years[0]+"çº§"));
+					ws.addCell(new Label(12,5,years[1]+"çº§"));
+					ws.addCell(new Label(14,5,years[0]+"çº§"));
+					ws.addCell(new Label(15,5,years[1]+"çº§"));
 					
-					ws.addCell(new Label(17,3,years[0]+"¼¶"));
-					ws.addCell(new Label(18,3,years[1]+"¼¶"));
-					ws.addCell(new Label(21,3,years[0]+"¼¶"));
-					ws.addCell(new Label(22,3,years[1]+"¼¶"));
+					ws.addCell(new Label(17,3,years[0]+"çº§"));
+					ws.addCell(new Label(18,3,years[1]+"çº§"));
+					ws.addCell(new Label(21,3,years[0]+"çº§"));
+					ws.addCell(new Label(22,3,years[1]+"çº§"));
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
 						ws.addCell(new Label(0,6+j, (String) data_m.get("collegeName"),wcf));
@@ -1322,7 +1322,7 @@ public class XLSUtil {
 		if (year_num==3){
 			List<Map> final_data = new ArrayList();
 			for (int i = 0 ;i<sortby.length;i++){
-				if (sortby[i].equals("°´Ñ§Ôº")){
+				if (sortby[i].equals("æŒ‰å­¦é™¢")){
 					CollegeDao cd = new CollegeDao();
 					List<College> college_list = cd.viewAllCollege();
 					
@@ -1368,29 +1368,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -1398,7 +1398,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -1424,29 +1424,29 @@ public class XLSUtil {
 
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[1])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year1_m++;
 									}else{
 										sum_fdx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year1_m++;
 									}else{
 										sum_dx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year1_m++;
 									}else{
 										sum_wp_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year1_m++;
 									}else{
 										sum_zc_year1_f++;
@@ -1454,7 +1454,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[1])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year1_m++;
 								}else{
 									sum_Z_year1_f++;
@@ -1480,29 +1480,29 @@ public class XLSUtil {
 
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[2])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year2_m++;
 									}else{
 										sum_fdx_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year2_m++;
 									}else{
 										sum_dx_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year2_m++;
 									}else{
 										sum_wp_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year2_m++;
 									}else{
 										sum_zc_year2_f++;
@@ -1510,7 +1510,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[2])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year2_m++;
 								}else{
 									sum_Z_year2_f++;
@@ -1539,35 +1539,35 @@ public class XLSUtil {
 					}
 					
 					
-					//Ð´Èësheet °´Ñ§Ôº
+					//å†™å…¥sheet æŒ‰å­¦é™¢
 	
 			        DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´Ñ§Ôº");
+					WritableSheet ws = wwb.getSheet("æŒ‰å­¦é™¢");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(1,5,years[0]+"¼¶"));
-					ws.addCell(new Label(2,5,years[1]+"¼¶"));
-					ws.addCell(new Label(3,5,years[2]+"¼¶"));
-					ws.addCell(new Label(5,5,years[0]+"¼¶"));
-					ws.addCell(new Label(6,5,years[1]+"¼¶"));
-					ws.addCell(new Label(7,5,years[2]+"¼¶"));
-					ws.addCell(new Label(9,5,years[0]+"¼¶"));
-					ws.addCell(new Label(10,5,years[1]+"¼¶"));
-					ws.addCell(new Label(11,5,years[2]+"¼¶"));
-					ws.addCell(new Label(13,5,years[0]+"¼¶"));
-					ws.addCell(new Label(14,5,years[1]+"¼¶"));
-					ws.addCell(new Label(15,5,years[2]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(1,5,years[0]+"çº§"));
+					ws.addCell(new Label(2,5,years[1]+"çº§"));
+					ws.addCell(new Label(3,5,years[2]+"çº§"));
+					ws.addCell(new Label(5,5,years[0]+"çº§"));
+					ws.addCell(new Label(6,5,years[1]+"çº§"));
+					ws.addCell(new Label(7,5,years[2]+"çº§"));
+					ws.addCell(new Label(9,5,years[0]+"çº§"));
+					ws.addCell(new Label(10,5,years[1]+"çº§"));
+					ws.addCell(new Label(11,5,years[2]+"çº§"));
+					ws.addCell(new Label(13,5,years[0]+"çº§"));
+					ws.addCell(new Label(14,5,years[1]+"çº§"));
+					ws.addCell(new Label(15,5,years[2]+"çº§"));
 
-					ws.addCell(new Label(17,3,years[0]+"¼¶"));
-					ws.addCell(new Label(18,3,years[1]+"¼¶"));
-					ws.addCell(new Label(19,3,years[2]+"¼¶"));
-					ws.addCell(new Label(22,3,years[0]+"¼¶"));
-					ws.addCell(new Label(23,3,years[1]+"¼¶"));
-					ws.addCell(new Label(24,3,years[2]+"¼¶"));
+					ws.addCell(new Label(17,3,years[0]+"çº§"));
+					ws.addCell(new Label(18,3,years[1]+"çº§"));
+					ws.addCell(new Label(19,3,years[2]+"çº§"));
+					ws.addCell(new Label(22,3,years[0]+"çº§"));
+					ws.addCell(new Label(23,3,years[1]+"çº§"));
+					ws.addCell(new Label(24,3,years[2]+"çº§"));
 					
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
@@ -1628,7 +1628,7 @@ public class XLSUtil {
 					}
 				}
 				final_data.clear();
-				if (sortby[i].equals("°´Ñ§Î»Àà±ð")){
+				if (sortby[i].equals("æŒ‰å­¦ä½ç±»åˆ«")){
 					
 					DegreeDao dd = new DegreeDao();
 					List<String> degree_list = dd.viewAllUniqueDegree();
@@ -1674,29 +1674,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -1704,7 +1704,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -1728,29 +1728,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[1])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year1_m++;
 									}else{
 										sum_fdx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year1_m++;
 									}else{
 										sum_dx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year1_m++;
 									}else{
 										sum_wp_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year1_m++;
 									}else{
 										sum_zc_year1_f++;
@@ -1758,7 +1758,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[1])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year1_m++;
 								}else{
 									sum_Z_year1_f++;
@@ -1783,29 +1783,29 @@ public class XLSUtil {
 
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[2])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year2_m++;
 									}else{
 										sum_fdx_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year2_m++;
 									}else{
 										sum_dx_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year2_m++;
 									}else{
 										sum_wp_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year2_m++;
 									}else{
 										sum_zc_year2_f++;
@@ -1813,7 +1813,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[2])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year2_m++;
 								}else{
 									sum_Z_year2_f++;
@@ -1838,34 +1838,34 @@ public class XLSUtil {
 
 						final_data.add(m);
 					}
-					//Ð´Èësheet °´Ñ§Î»Àà±ð
+					//å†™å…¥sheet æŒ‰å­¦ä½ç±»åˆ«
 					DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´Ñ§Î»Àà±ð");
+					WritableSheet ws = wwb.getSheet("æŒ‰å­¦ä½ç±»åˆ«");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(1,5,years[0]+"¼¶"));
-					ws.addCell(new Label(2,5,years[1]+"¼¶"));
-					ws.addCell(new Label(3,5,years[2]+"¼¶"));
-					ws.addCell(new Label(5,5,years[0]+"¼¶"));
-					ws.addCell(new Label(6,5,years[1]+"¼¶"));
-					ws.addCell(new Label(7,5,years[2]+"¼¶"));
-					ws.addCell(new Label(9,5,years[0]+"¼¶"));
-					ws.addCell(new Label(10,5,years[1]+"¼¶"));
-					ws.addCell(new Label(11,5,years[2]+"¼¶"));
-					ws.addCell(new Label(13,5,years[0]+"¼¶"));
-					ws.addCell(new Label(14,5,years[1]+"¼¶"));
-					ws.addCell(new Label(15,5,years[2]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(1,5,years[0]+"çº§"));
+					ws.addCell(new Label(2,5,years[1]+"çº§"));
+					ws.addCell(new Label(3,5,years[2]+"çº§"));
+					ws.addCell(new Label(5,5,years[0]+"çº§"));
+					ws.addCell(new Label(6,5,years[1]+"çº§"));
+					ws.addCell(new Label(7,5,years[2]+"çº§"));
+					ws.addCell(new Label(9,5,years[0]+"çº§"));
+					ws.addCell(new Label(10,5,years[1]+"çº§"));
+					ws.addCell(new Label(11,5,years[2]+"çº§"));
+					ws.addCell(new Label(13,5,years[0]+"çº§"));
+					ws.addCell(new Label(14,5,years[1]+"çº§"));
+					ws.addCell(new Label(15,5,years[2]+"çº§"));
 
-					ws.addCell(new Label(17,3,years[0]+"¼¶"));
-					ws.addCell(new Label(18,3,years[1]+"¼¶"));
-					ws.addCell(new Label(19,3,years[2]+"¼¶"));
-					ws.addCell(new Label(22,3,years[0]+"¼¶"));
-					ws.addCell(new Label(23,3,years[1]+"¼¶"));
-					ws.addCell(new Label(24,3,years[2]+"¼¶"));
+					ws.addCell(new Label(17,3,years[0]+"çº§"));
+					ws.addCell(new Label(18,3,years[1]+"çº§"));
+					ws.addCell(new Label(19,3,years[2]+"çº§"));
+					ws.addCell(new Label(22,3,years[0]+"çº§"));
+					ws.addCell(new Label(23,3,years[1]+"çº§"));
+					ws.addCell(new Label(24,3,years[2]+"çº§"));
 					
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
@@ -1920,7 +1920,7 @@ public class XLSUtil {
 					}
 				}
 				final_data.clear();
-				if (sortby[i].equals("°´ÁìÓò")){
+				if (sortby[i].equals("æŒ‰é¢†åŸŸ")){
 					
 					FieldDao fd = new FieldDao();
 					List<Field> field_list = fd.viewAllField();
@@ -1975,29 +1975,29 @@ public class XLSUtil {
 						
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[0])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year0_m++;
 									}else{
 										sum_fdx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year0_m++;
 									}else{
 										sum_dx_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year0_m++;
 									}else{
 										sum_wp_year0_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year0_m++;
 									}else{
 										sum_zc_year0_f++;
@@ -2005,7 +2005,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[0])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year0_m++;
 								}else{
 									sum_Z_year0_f++;
@@ -2030,29 +2030,29 @@ public class XLSUtil {
 
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[1])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year1_m++;
 									}else{
 										sum_fdx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year1_m++;
 									}else{
 										sum_dx_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year1_m++;
 									}else{
 										sum_wp_year1_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year1_m++;
 									}else{
 										sum_zc_year1_f++;
@@ -2060,7 +2060,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[1])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year1_m++;
 								}else{
 									sum_Z_year1_f++;
@@ -2086,29 +2086,29 @@ public class XLSUtil {
 
 						for (int k=0;k<stu_list.size();k++){
 							if (stu_list.get(k).getStu_no().substring(0,4).equals("MZ"+years[2])){
-								if (stu_list.get(k).getStu_pylb().equals("·Ç¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("éžå®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_fdx_year2_m++;
 									}else{
 										sum_fdx_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("¶¨Ïò")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å®šå‘")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_dx_year2_m++;
 									}else{
 										sum_dx_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("Î¯Åà")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("å§”åŸ¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_wp_year2_m++;
 									}else{
 										sum_wp_year2_f++;
 									}
 								}
-								if (stu_list.get(k).getStu_pylb().equals("×Ô³ï")){
-									if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getStu_pylb().equals("è‡ªç­¹")){
+									if (stu_list.get(k).getSex().equals("ç”·")){
 										sum_zc_year2_m++;
 									}else{
 										sum_zc_year2_f++;
@@ -2116,7 +2116,7 @@ public class XLSUtil {
 								}
 								
 							}else if(stu_list.get(k).getStu_no().substring(0,3).equals("Z"+years[2])){
-								if (stu_list.get(k).getSex().equals("ÄÐ")){
+								if (stu_list.get(k).getSex().equals("ç”·")){
 									sum_Z_year2_m++;
 								}else{
 									sum_Z_year2_f++;
@@ -2141,34 +2141,34 @@ public class XLSUtil {
 
 						final_data.add(m);
 					}
-					//Ð´Èësheet °´ÁìÓò
+					//å†™å…¥sheet æŒ‰é¢†åŸŸ
 					DateFormat df6 = new SimpleDateFormat("yyyy-MM-dd"); 
 			        Date date = new Date();
 
-					WritableSheet ws = wwb.getSheet("°´ÁìÓò");
+					WritableSheet ws = wwb.getSheet("æŒ‰é¢†åŸŸ");
 					WritableCellFormat wcf = new WritableCellFormat();
 					wcf.setBorder(jxl.format.Border.ALL, BorderLineStyle.THIN);
 					
-					ws.addCell(new Label(0,1,"Í³¼ÆÊ±¼ä£º"+df6.format(date)));
-					ws.addCell(new Label(5,5,years[0]+"¼¶"));
-					ws.addCell(new Label(6,5,years[1]+"¼¶"));
-					ws.addCell(new Label(7,5,years[2]+"¼¶"));
-					ws.addCell(new Label(9,5,years[0]+"¼¶"));
-					ws.addCell(new Label(10,5,years[1]+"¼¶"));
-					ws.addCell(new Label(11,5,years[2]+"¼¶"));
-					ws.addCell(new Label(13,5,years[0]+"¼¶"));
-					ws.addCell(new Label(14,5,years[1]+"¼¶"));
-					ws.addCell(new Label(15,5,years[2]+"¼¶"));
-					ws.addCell(new Label(17,5,years[0]+"¼¶"));
-					ws.addCell(new Label(18,5,years[1]+"¼¶"));
-					ws.addCell(new Label(19,5,years[2]+"¼¶"));
+					ws.addCell(new Label(0,1,"ç»Ÿè®¡æ—¶é—´ï¼š"+df6.format(date)));
+					ws.addCell(new Label(5,5,years[0]+"çº§"));
+					ws.addCell(new Label(6,5,years[1]+"çº§"));
+					ws.addCell(new Label(7,5,years[2]+"çº§"));
+					ws.addCell(new Label(9,5,years[0]+"çº§"));
+					ws.addCell(new Label(10,5,years[1]+"çº§"));
+					ws.addCell(new Label(11,5,years[2]+"çº§"));
+					ws.addCell(new Label(13,5,years[0]+"çº§"));
+					ws.addCell(new Label(14,5,years[1]+"çº§"));
+					ws.addCell(new Label(15,5,years[2]+"çº§"));
+					ws.addCell(new Label(17,5,years[0]+"çº§"));
+					ws.addCell(new Label(18,5,years[1]+"çº§"));
+					ws.addCell(new Label(19,5,years[2]+"çº§"));
 
-					ws.addCell(new Label(21,3,years[0]+"¼¶"));
-					ws.addCell(new Label(22,3,years[1]+"¼¶"));
-					ws.addCell(new Label(23,3,years[2]+"¼¶"));
-					ws.addCell(new Label(26,3,years[0]+"¼¶"));
-					ws.addCell(new Label(27,3,years[1]+"¼¶"));
-					ws.addCell(new Label(28,3,years[2]+"¼¶"));
+					ws.addCell(new Label(21,3,years[0]+"çº§"));
+					ws.addCell(new Label(22,3,years[1]+"çº§"));
+					ws.addCell(new Label(23,3,years[2]+"çº§"));
+					ws.addCell(new Label(26,3,years[0]+"çº§"));
+					ws.addCell(new Label(27,3,years[1]+"çº§"));
+					ws.addCell(new Label(28,3,years[2]+"çº§"));
 					
 					for (int j=0;j<final_data.size();j++){
 						Map data_m = final_data.get(j);
