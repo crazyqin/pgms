@@ -90,6 +90,14 @@
 				<param name="contentType">text/html;charset=UTF-8</param>
 			</result>
 		</action>
+		
+		
+		<action name="changePwd" class="com.pgms.action.AdminAction" method="changePwd">
+						<result type="json">
+				<param name="root">changeStatus</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
 
 	</package>
 

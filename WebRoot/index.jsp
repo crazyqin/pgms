@@ -553,18 +553,9 @@ response.sendRedirect("login.jsp");
 
 						<ul class="submenu">
 							<li class="">
-								<a data-url="page/typography2" href="#page/typography2">
+								<a data-url="page/profile_modify" href="#page/profile_modify">
 									<i class="menu-icon fa fa-caret-right"></i>
-									修改密码
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a data-url="page/elements2" href="#page/elements2">
-									<i class="menu-icon fa fa-caret-right"></i>
-									修改资料
+									修改信息
 								</a>
 
 								<b class="arrow"></b>

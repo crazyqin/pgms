@@ -2,6 +2,7 @@ eclipse.preferences.version=1
 encoding//WebRoot/content/exportXLS.jsp=UTF-8
 encoding//WebRoot/content/importXLS.jsp=UTF-8
 encoding//WebRoot/content/index.jsp=UTF-8
+encoding//WebRoot/content/profile_modify.jsp=UTF-8
 encoding//WebRoot/content/yjs_xxcx.jsp=UTF-8
 encoding//WebRoot/exporttest.jsp=UTF-8
 encoding//WebRoot/login.jsp=UTF-8

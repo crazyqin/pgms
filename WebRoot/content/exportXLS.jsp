@@ -7,8 +7,8 @@
 
 <div class="page-header">
 	<h1>
-		数据导入 <small> <i class="ace-icon fa fa-angle-double-right"></i>
-			从Excel导入
+		数据导出 <small> <i class="ace-icon fa fa-angle-double-right"></i>
+			导出到Excel
 		</small>
 	</h1>
 </div>
