@@ -19,9 +19,18 @@ public class StuAction {
 	private String id;
 	
 	private Map allStu;
+	private Map actionStatus;
 	
 
 
+
+	public Map getActionStatus() {
+		return actionStatus;
+	}
+
+	public void setActionStatus(Map actionStatus) {
+		this.actionStatus = actionStatus;
+	}
 
 	public Map getAllStu() {
 		return allStu;
@@ -100,6 +109,25 @@ public class StuAction {
 
 		this.setAllStu(ss.stu_search(rows, page, sord,_search,filters));
 
+		return "success";
+	}
+	
+	public String doAction(){
+		StudentService ss = new StudentService();
+		if (oper.equals("del")){
+			String[] s_ids=id.split(",");
+			for (int i=0;i<s_ids.length;i++){
+				ss.delStu(Long.parseLong(s_ids[i]));
+			}
+		}else if(oper.equals("edit")){
+			
+		}else if(oper.equals("add")){
+			
+		}
+		
+		
+
+		
 		return "success";
 	}
 

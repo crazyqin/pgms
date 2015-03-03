@@ -101,8 +101,8 @@
                 {name:'stu_zjmc',index:'stu_zjmc', width:40, sortable:false, editable: true,searchoptions:{sopt:['eq']}},
                 {name:'stu_zjhm',index:'stu_zjhm', width:90,  sortable:false,sortable:false, editable: true,searchoptions:{sopt:['eq']}},
                 {name:'college.college_name',index:'college.college_name', width:100, sortable:false,editable: true,searchoptions:{sopt:['eq']}} ,
-                {name:'degree.degree_type',index:'degree.degree_type', width:90,  sortable:false,editable: true,searchoptions:{sopt:['eq']}},
-                {name:'field.field_name',index:'field.field_name', width:90,editable: true,searchoptions:{sopt:['eq']}},
+                {name:'degree.degree_type',index:'degree.degree_type', width:90,  sortable:false,editable: false,searchoptions:{sopt:['eq']}},
+                {name:'field.field_name',index:'field.field_name', width:90,editable: false,searchoptions:{sopt:['eq']}},
                 {name:'stu_pylb',index:'stu_pylb', width:50, editable: true,searchoptions:{sopt:['eq']}},
                 {name:'stu_xz',index:'stu_xz', width:50, editable: true,searchoptions:{sopt:['eq']}}
             ],
@@ -129,7 +129,7 @@
                 }, 0);
             },
 
-            editurl: "json/doAction.action",//nothing is saved
+            editurl: "/pgms/json/doAction.action",//nothing is saved
             caption: "jqGrid with inline edi111ting"
 
             //,autowidth: true,
@@ -179,9 +179,9 @@
         //navButtons
         jQuery(grid_selector).jqGrid('navGrid',pager_selector,
                 { 	//navbar options
-                    edit: true,
+                    edit: false,
                     editicon : 'ace-icon fa fa-pencil blue',
-                    add: true,
+                    add: false,
                     addicon : 'ace-icon fa fa-plus-circle purple',
                     del: true,
                     delicon : 'ace-icon fa fa-trash-o red',

@@ -82,6 +82,14 @@
 			</result>
 
 		</action>
+		
+		
+		<action name="doAction" class="com.pgms.action.StuAction" method="doAction">
+				<result type="json">
+				<param name="root">actionStatus</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
 
 	</package>
 

@@ -69,5 +69,22 @@ public class StudentService {
 		m.put("total",  count % pageSize == 0 ? count / pageSize : count / pageSize + 1);
 		return m;
 	}
+	
+	
+	public Map delStu(long id){
+		Map m = new HashMap();
+		StudentDao sd = new StudentDao();
+		try{
+			sd.delete(sd.findById(id));
+			m.put("status", 1);
+			m.put("msg", "É¾³ý³É¹¦");
+		}catch(RuntimeException re){
+			m.put("status", 0);
+			m.put("msg", "É¾³ýÊ§°Ü");
+		}
+		return m;
+		
+		
+	}
 
 }
