@@ -112,4 +112,23 @@ public class FieldDao {
 		}
 	}
 
+	public List searchField(int firstResult, int maxResults, String hql) {
+		Session session = HibernateSessionFactory.getSession();
+		Query query = session.createQuery(hql) ;
+		query.setFirstResult(firstResult);
+		query.setMaxResults(maxResults);
+		List l = query.list();
+		HibernateSessionFactory.closeSession();
+		return l;
+	}
+
+	public int countSearchField(String hql) {
+		Session session = HibernateSessionFactory.getSession();
+		Query query = session.createQuery(hql) ;
+		int c = query.list().size();
+		HibernateSessionFactory.closeSession();
+		return c;
+	}
+
+
 }

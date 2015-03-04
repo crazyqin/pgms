@@ -31,7 +31,7 @@
 							确认密码：<input type="password" confirmpassword" name="confirmpassword" />
 						</p>
 						<p>
-							<span class="btn btn-primary" onclick="savePwd();">修改密码</span>
+							<span class="btn btn-info" onclick="savePwd();">修改密码</span>
 						</p>
 
 					</div>

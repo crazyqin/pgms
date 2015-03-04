@@ -5,12 +5,12 @@
 <script src="/pgms/assets/js/jqGrid/jquery.jqGrid.src.js"></script>
 <script src="/pgms/assets/js/jquery-ui.js"></script>
 <script src="/pgms/assets/js/jquery.ui.touch-punch.js"></script>
-<title>研究生信息查询</title>
+<title>专业领域管理</title>
 
 <!-- ajax layout which only needs content area -->
 <div class="page-header">
     <h1>
-        研究生信息查询
+        专业领域管理
     </h1>
 </div><!-- /.page-header -->
 <div class="row">
@@ -75,12 +75,12 @@
 
         jQuery(grid_selector).jqGrid({
 
+			jsonReader:{id:"field_code"},
 			
-			
-            url:"/pgms/json/stu_search.action",
+            url:"/pgms/json/field_search.action",
             datatype: "json",
             height: 400,
-            colNames:[' 操作','ID','学号','姓名', '性别','名族','政治面貌','证件类型','证件号码' ,'学院','学位','学位代码','领域','领域代码','培养类别','学制'],
+            colNames:[' 操作','领域代码','领域名称'],
             colModel:[
                 {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,search:false,
                     formatter:'actions',
@@ -91,22 +91,10 @@
                         delOptions:{recreateForm: true, beforeShowForm:beforeDeleteCallback},
                         //editformbutton:true, editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
                     }
-                },
-                {name:'id',index:'id', width:20	, sorttype:"long", editable: false,search:false},
-                {name:'stu_no',index:'stu_no',  width:40, sortable:false,editable: true,searchoptions:{sopt:['eq']}},
-                {name:'stu_name',index:'stu_name', width:50, sortable:false,editable: true,searchoptions:{sopt:['eq','cn']}},
-                {name:'sex',index:'sex', width:30, sortable:false, editable: true,searchoptions:{sopt:['eq']}},
-                {name:'stu_mz',index:'stu_mz', width:30, sortable:false, editable: true,searchoptions:{sopt:['eq']}},
-                {name:'stu_zzmm',index:'stu_zzmm', width:80, sortable:false, editable: true,searchoptions:{sopt:['eq']}},
-                {name:'stu_zjmc',index:'stu_zjmc', width:40, sortable:false, editable: true,searchoptions:{sopt:['eq']}},
-                {name:'stu_zjhm',index:'stu_zjhm', width:90,  sortable:false,sortable:false, editable: true,searchoptions:{sopt:['eq']}},
-                {name:'college.college_name',index:'college.college_name', width:100, sortable:false,editable: true,searchoptions:{sopt:['eq']}} ,
-                {name:'degree.degree_type',index:'degree.degree_type', width:90,  sortable:false,editable: false,searchoptions:{sopt:['eq']}},
-                {name:'degree.degree_code',index:'degree.degree_code', width:50,  sortable:false,editable: false,searchoptions:{sopt:['eq']}},
-                {name:'field.field_name',index:'field.field_name', width:90,editable: false,searchoptions:{sopt:['eq']}},
-                {name:'field.field_code',index:'field.field_code', width:50,editable: false,searchoptions:{sopt:['eq']}},
-                {name:'stu_pylb',index:'stu_pylb', width:50, editable: true,searchoptions:{sopt:['eq']}},
-                {name:'stu_xz',index:'stu_xz', width:50, editable: true,searchoptions:{sopt:['eq']}}
+                },                
+                {name:'field_code',index:'field_name', editable: true,search:false},
+                {name:'field_name',index:'field_name', sortable:false,editable: true,searchoptions:{sopt:['eq']}}
+              
             ],
 
             viewrecords : true,
@@ -131,7 +119,7 @@
                 }, 0);
             },
 
-            editurl: "/pgms/json/doAction.action",//nothing is saved
+            editurl: "/pgms/json/doFieldAction.action",//nothing is saved
             caption: "查询结果"
 
             //,autowidth: true,
@@ -183,9 +171,9 @@
                 { 	//navbar options
                     edit: false,
                     editicon : 'ace-icon fa fa-pencil blue',
-                    add: false,
+                    add: true,
                     addicon : 'ace-icon fa fa-plus-circle purple',
-                    del: true,
+                    del: false,
                     delicon : 'ace-icon fa fa-trash-o red',
                     search: true,
                     searchicon : 'ace-icon fa fa-search orange',

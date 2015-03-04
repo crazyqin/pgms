@@ -92,6 +92,24 @@
 		</action>
 		
 		
+		<action name="field_search" class="com.pgms.action.FieldAction"
+			method="field_search">
+			<result type="json">
+				<param name="root">allField</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+
+		</action>
+		
+		
+		<action name="doFieldAction" class="com.pgms.action.FieldAction" method="doAction">
+				<result type="json">
+				<param name="root">actionStatus</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
+		
+		
 		<action name="changePwd" class="com.pgms.action.AdminAction" method="changePwd">
 						<result type="json">
 				<param name="root">changeStatus</param>
