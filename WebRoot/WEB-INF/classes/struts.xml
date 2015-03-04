@@ -109,6 +109,39 @@
 			</result>
 		</action>
 		
+		<action name="degree_search" class="com.pgms.action.DegreeAction"
+			method="degree_search">
+			<result type="json">
+				<param name="root">allDegree</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+
+		</action>
+		
+		
+		<action name="doDegreeAction" class="com.pgms.action.DegreeAction" method="doAction">
+				<result type="json">
+				<param name="root">actionStatus</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
+		
+		<action name="college_search" class="com.pgms.action.CollegeAction"
+			method="college_search">
+			<result type="json">
+				<param name="root">allCollege</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+
+		</action>
+		
+		
+		<action name="doCollegeAction" class="com.pgms.action.CollegeAction" method="doAction">
+				<result type="json">
+				<param name="root">actionStatus</param>
+				<param name="contentType">text/html;charset=UTF-8</param>
+			</result>
+		</action>
 		
 		<action name="changePwd" class="com.pgms.action.AdminAction" method="changePwd">
 						<result type="json">

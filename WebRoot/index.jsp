@@ -347,7 +347,7 @@ response.sendRedirect("login.jsp");
 							学院管理 </span> 
 				</a> <b class="arrow"></b></li>
 
-				<li class=""><a data-url="page/DegreeManage" href="#page/DegreeManage">
+				<li class=""><a data-url="page/degreeManage" href="#page/degreeManage">
 						<i class="menu-icon fa fa-graduation-cap"></i> <span
 						class="menu-text"> 学位管理 </span>
 				</a> <b class="arrow"></b></li>

@@ -114,5 +114,24 @@ public class CollegeDao {
 	}
 	
 	
+	public List searchCollege(int firstResult, int maxResults, String hql) {
+		Session session = HibernateSessionFactory.getSession();
+		Query query = session.createQuery(hql) ;
+		query.setFirstResult(firstResult);
+		query.setMaxResults(maxResults);
+		List l = query.list();
+		HibernateSessionFactory.closeSession();
+		return l;
+	}
+
+	public int countSearchCollege(String hql) {
+		Session session = HibernateSessionFactory.getSession();
+		Query query = session.createQuery(hql) ;
+		int c = query.list().size();
+		HibernateSessionFactory.closeSession();
+		return c;
+	}
+	
+	
 
 }

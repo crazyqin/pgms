@@ -125,5 +125,24 @@ public class DegreeDao {
 
 		}
 	}
+	
+	
+	public List searchDegree(int firstResult, int maxResults, String hql) {
+		Session session = HibernateSessionFactory.getSession();
+		Query query = session.createQuery(hql) ;
+		query.setFirstResult(firstResult);
+		query.setMaxResults(maxResults);
+		List l = query.list();
+		HibernateSessionFactory.closeSession();
+		return l;
+	}
+
+	public int countSearchDegree(String hql) {
+		Session session = HibernateSessionFactory.getSession();
+		Query query = session.createQuery(hql) ;
+		int c = query.list().size();
+		HibernateSessionFactory.closeSession();
+		return c;
+	}
 
 }

@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+encoding//WebRoot/content/collegeManage.jsp=UTF-8
+encoding//WebRoot/content/degreeManage.jsp=UTF-8
 encoding//WebRoot/content/exportXLS.jsp=UTF-8
 encoding//WebRoot/content/fieldManage.jsp=UTF-8
 encoding//WebRoot/content/importXLS.jsp=UTF-8
